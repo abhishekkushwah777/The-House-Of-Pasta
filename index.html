@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The House Of Pasta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2></h2>
+    </div>
+    <header>
+        <button class="sidebar-btn" onclick="togglesidebar()">
+            <img src="images/menu.png" style="width: 25px; height: 25px; background-color: #f8bb14; padding: 5px 5px; border-radius: 5px; margin: 10px 10px;">
+        </button>
+        <button class="kart-btn" onclick="togglekart()">
+            <img src="images/kart.png" style="width: 25px; height: 25px; background-color: #f8bb14; padding: 5px 5px; border-radius: 5px; margin: 10px 10px;">
+        </button>
+        <div class="logo">
+            <img src="images/logo.png" alt="logoimage">
+        </div>
+    </header>
+    <main class="main">
+        <div class="item">
+            <img src="images/WSpasta.jpg" alt="white sauce pasta">
+            <h1 class="name" style="font-size: xx-large;">White Sauce Pasta</h1>
+            <p class="name" style="font-size: large;">Delicious italian Pasta</p>
+            <h2 class="name" style="font-size: x-large; margin-top: 10px;">₹ 120</h2>
+        </div>
+        <div class="btn-container">
+            <button class="add-btn" onclick="toggleadd()">Add to Plate</button>
+        </div>
+    </main>
+    <footer>
+        <div class="up-btn">
+            <button class="up" onclick="togglemenu()" style="background-color: #00000000; border: none;">
+                <img src="images/up.png" style="width: 25px; height: 25px; background-color: #00000000; border-radius: 5px; padding-bottom: 20px;">
+            </button>
+        </div>
+        <div class="categories">
+            <h2 class="category">Maggie</h2>
+            <h1 class="category">Pasta</h1>
+            <h2 class="category">Momos</h2>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
